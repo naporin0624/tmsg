@@ -24,11 +24,11 @@
   "description": "Type-safe i18n library for TypeScript apps based on MessageFormat",
   "dependencies": {
     "@messageformat/core": "^3.0.1",
-    "glob": "^8.0.3",
+    "glob": "^8.1.0",
     "yargs": "^17.6.2"
   },
   "devDependencies": {
-    "@types/glob": "^8.0.0",
+    "@types/glob": "^8.0.1",
     "@types/yargs": "^17.0.17"
   },
   "repository": {
