@@ -2,10 +2,9 @@
 
 ## [0.1.3](https://github.com/tanekloc/tmsg/compare/runtime-v0.1.2...runtime-v0.1.3) (2023-02-06)
 
-
 ### Bug Fixes
 
-* add webpackIgnore for dynamic imports ([#39](https://github.com/tanekloc/tmsg/issues/39)) ([1b7838f](https://github.com/tanekloc/tmsg/commit/1b7838f74660e2ae0e824a33b828a4a33e8e8f39)), closes [#35](https://github.com/tanekloc/tmsg/issues/35)
+- add webpackIgnore for dynamic imports ([#39](https://github.com/tanekloc/tmsg/issues/39)) ([1b7838f](https://github.com/tanekloc/tmsg/commit/1b7838f74660e2ae0e824a33b828a4a33e8e8f39)), closes [#35](https://github.com/tanekloc/tmsg/issues/35)
 
 ## [0.1.2](https://github.com/tanekloc/tmsg/compare/runtime-v0.1.1...runtime-v0.1.2) (2022-12-06)
 

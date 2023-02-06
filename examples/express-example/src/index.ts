@@ -10,10 +10,10 @@ const i18n = configure({
 });
 
 const getLang = (query: Request['query']): 'en' | 'de' => {
-  if (!('lang' in query)) return 'en'
+  if (!('lang' in query)) return 'en';
 
-  return query['lang'] === 'de' ? 'de' : 'en'
-}
+  return query['lang'] === 'de' ? 'de' : 'en';
+};
 
 app.get('/', async (req, res) => {
   const t = await i18n.buildT(getLang(req.query));
