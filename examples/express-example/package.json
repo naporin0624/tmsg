@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "prestart": "npm run build",
+    "prestart": "npm run build && npm run compile-locales",
     "start": "node .",
     "sync-locales": "tmsgx sync --outDir ./locales --projectDir .  --locales en de",
     "compile-locales": "tmsgx compile --outDir ./dist/locales --localesDir ./locales"
