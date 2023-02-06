@@ -14,7 +14,7 @@ export class Runtime {
 
   async load(locale: Locale): Promise<CompiledStrings> {
     const localePath = new URL(`./${locale}/${locale}.js`, this.#rootURL);
-    return (await import(localePath.href)).default;
+    return (await import(/* webpackIgnore: true */ localePath.href)).default;
   }
 
   async buildT(locale: Locale) {
